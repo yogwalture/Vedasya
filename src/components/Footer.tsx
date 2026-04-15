@@ -23,7 +23,7 @@ export function Footer() {
               Advanced clinical cosmetology center dedicated to enhancing your natural beauty through safe, medical-grade treatments.
             </p>
             <div className="flex items-center gap-4">
-              <a href="https://www.instagram.com/skinvedasya_aesthetic_clinic/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass-panel flex items-center justify-center hover:bg-gold-500 hover:text-charcoal-950 hover:shadow-[0_0_15px_rgba(212,175,55,0.5)] transition-all text-white/70 border-white/20">
+              <a href="https://www.instagram.com/manisha_889/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass-panel flex items-center justify-center hover:bg-gold-500 hover:text-charcoal-950 hover:shadow-[0_0_15px_rgba(212,175,55,0.5)] transition-all text-white/70 border-white/20">
                 <Instagram size={20} />
               </a>
               <a href="https://www.facebook.com/manisha.wankhedepatil/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass-panel flex items-center justify-center hover:bg-gold-500 hover:text-charcoal-950 hover:shadow-[0_0_15px_rgba(212,175,55,0.5)] transition-all text-white/70 border-white/20">

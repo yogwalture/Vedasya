@@ -48,10 +48,13 @@ export function About() {
                 initial={{ scale: 1.1 }}
                 whileInView={{ scale: 1 }}
                 transition={{ duration: 1.5 }}
-                src="https://www.instagram.com/p/DTFmnMZkqEu/media/?size=l" 
+                src="https://images.weserv.nl/?url=https://www.instagram.com/p/DTFmnMZkqEu/media/?size=l" 
                 alt="Dr. Manisha Wankhede Patil" 
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover absolute inset-0"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1594824436998-d40d14739259?q=80&w=800&auto=format&fit=crop";
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal-950/90 via-charcoal-950/20 to-transparent pointer-events-none"></div>
               <div className="absolute bottom-0 left-0 w-full p-8 text-white pointer-events-none">

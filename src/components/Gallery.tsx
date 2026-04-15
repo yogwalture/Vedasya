@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
 
 const instagramPosts = [
-  { id: "DXEJadajaPk", alt: "Skin Treatment Result" },
-  { id: "DWD3Gv3DSAI", alt: "Cosmetology Procedure" },
-  { id: "DRcdpdqCK-g", alt: "Clinic Update" },
-  { id: "DPlyU5miH-H", alt: "Patient Testimonial" },
-  { id: "DO7x-H7Df43", alt: "Advanced Treatment" },
-  { id: "DOl11GLjaCR", alt: "Aesthetic Care" }
+  { id: "DVgc7RDCHnY", alt: "Spiritual Blessings" },
+  { id: "DXEJadajaPk", alt: "Elegant Ethnic Wear" },
+  { id: "DWD-2RWiL1L", alt: "Traditional Marathi Look" },
+  { id: "DVlkUP4jPnO", alt: "Women Empowerment" },
+  { id: "DUbQ3NfiLtW", alt: "Clinic Celebration" },
+  { id: "DTFmnMZkqEu", alt: "Professional Confidence" }
 ];
 
 export function Gallery() {
@@ -35,11 +35,15 @@ export function Gallery() {
               className="glass-panel rounded-2xl md:rounded-3xl overflow-hidden aspect-square relative group cursor-pointer"
             >
               <img 
-                src={`https://www.instagram.com/p/${post.id}/media/?size=l`} 
+                src={`https://images.weserv.nl/?url=https://www.instagram.com/p/${post.id}/media/?size=l`} 
                 alt={post.alt}
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 loading="lazy"
+                onError={(e) => {
+                  // Fallback to a high-quality aesthetic placeholder if Instagram proxy fails
+                  (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1560750584-22e33c1f3a61?q=80&w=800&auto=format&fit=crop&sig=${index}`;
+                }}
               />
               <div className="absolute inset-0 bg-charcoal-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <a 

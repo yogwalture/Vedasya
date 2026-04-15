@@ -56,7 +56,7 @@ export function Navbar() {
             ))}
           </ul>
           <div className="flex items-center gap-4 border-l border-white/20 pl-6">
-            <a href="https://www.instagram.com/skinvedasya_aesthetic_clinic/" target="_blank" rel="noopener noreferrer" className="text-pastel-50/80 hover:text-gold-400 transition-colors">
+            <a href="https://www.instagram.com/manisha_889/" target="_blank" rel="noopener noreferrer" className="text-pastel-50/80 hover:text-gold-400 transition-colors">
               <Instagram size={18} />
             </a>
             <a href="https://www.facebook.com/manisha.wankhedepatil/" target="_blank" rel="noopener noreferrer" className="text-pastel-50/80 hover:text-gold-400 transition-colors">
@@ -97,7 +97,7 @@ export function Navbar() {
             ))}
           </ul>
           <div className="flex items-center gap-6 mt-6">
-            <a href="https://www.instagram.com/skinvedasya_aesthetic_clinic/" target="_blank" rel="noopener noreferrer" className="text-pastel-50/80 hover:text-gold-400 transition-colors">
+            <a href="https://www.instagram.com/manisha_889/" target="_blank" rel="noopener noreferrer" className="text-pastel-50/80 hover:text-gold-400 transition-colors">
               <Instagram size={24} />
             </a>
             <a href="https://www.facebook.com/manisha.wankhedepatil/" target="_blank" rel="noopener noreferrer" className="text-pastel-50/80 hover:text-gold-400 transition-colors">

@@ -74,7 +74,7 @@ export function Hero() {
               initial={{ scale: 1.2 }}
               animate={{ scale: 1 }}
               transition={{ duration: 2, ease: "easeOut" }}
-              src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=1000&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000&auto=format&fit=crop" 
               alt="Clinical Cosmetology Treatment" 
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover absolute inset-0"
